@@ -14,12 +14,14 @@ function Header() {
     const contactItem = useRef(null);
 
     const [showMenu, setShowMenu] = useState(false);
+    const [previousButton, setPreviousButton] = useState(homeItem);
 
     useEffect(() => {
         
     }, [])
 
     const onMenuButtonClick = () => {
+        //console.log(data)
         if(!showMenu){
             menuButton.current.classList.add('close');
             menu.current.classList.add('show');
@@ -43,6 +45,34 @@ function Header() {
         }
     }
 
+    const onHomeButtonClick = () => {
+        previousButton.current.classList.remove('current');
+        homeItem.current.classList.add('current');
+        setPreviousButton(homeItem)
+        onMenuButtonClick();
+    }
+
+    const onAboutButtonClick = () => {
+        previousButton.current.classList.remove('current');
+        aboutItem.current.classList.add('current');
+        setPreviousButton(aboutItem)
+        onMenuButtonClick();
+    }
+
+    const onWorkButtonClick = () => {
+        previousButton.current.classList.remove('current');
+        workItem.current.classList.add('current');
+        setPreviousButton(workItem)
+        onMenuButtonClick();
+    }
+
+    const onContactButtonClick = () => {
+        previousButton.current.classList.remove('current');
+        contactItem.current.classList.add('current');
+        setPreviousButton(contactItem)
+        onMenuButtonClick();
+    }
+
   return (
     <React.Fragment>
       <header>
@@ -57,23 +87,23 @@ function Header() {
             <div className="portrait"></div>
           </div>
           <ul className="menu-nav" ref={menuNav}>
-            <li className="nav-item current" ref={homeItem} onClick={() => onMenuButtonClick()}>
+            <li className="nav-item current" ref={homeItem} onClick={() => onHomeButtonClick()}>
               <Link to="/" className="nav-link">
                 HOME
               </Link>
             </li>
-            <li className="nav-item" ref={aboutItem} onClick={() => onMenuButtonClick()}>
+            <li className="nav-item" ref={aboutItem} onClick={() => onAboutButtonClick()}>
               <Link to="/about" className="nav-link">
                 ABOUT ME
               </Link>
             </li>
             <li className="nav-item" ref={workItem} >
-              <Link to="/work" className="nav-link" onClick={() => onMenuButtonClick()}>
+              <Link to="/work" className="nav-link" onClick={() => onWorkButtonClick()}>
                 MY WORK
               </Link>
             </li>
             <li className="nav-item" ref={contactItem}>
-              <Link to="contact" className="nav-link" onClick={() => onMenuButtonClick()}>
+              <Link to="contact" className="nav-link" onClick={() => onContactButtonClick()}>
                 HOW TO REACH ME
               </Link>
             </li>
