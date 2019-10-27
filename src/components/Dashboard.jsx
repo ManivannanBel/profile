@@ -8,7 +8,7 @@ import {
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
 
-import '../css/main.css';
+//import '../css/main.css';
 
 function Dashboard() {
   return (

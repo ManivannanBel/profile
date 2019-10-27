@@ -4,12 +4,11 @@ import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
-    <div id="body">
-      <div id="bg-img">
-        <div className="overlay"></div>
+   
+      <div id="">
         <Dashboard />
       </div>
-    </div>
+   
   );
 }
 
