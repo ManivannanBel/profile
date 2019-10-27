@@ -1,5 +1,5 @@
 import React, {useState, useRef, useEffect} from "react";
-
+import {Link} from 'react-router-dom';
 //import '../css/main.css';
 
 function Header() {
@@ -57,25 +57,25 @@ function Header() {
             <div className="portrait"></div>
           </div>
           <ul className="menu-nav" ref={menuNav}>
-            <li className="nav-item current" ref={homeItem}>
-              <a href="" className="nav-link">
+            <li className="nav-item current" ref={homeItem} onClick={() => onMenuButtonClick()}>
+              <Link to="/" className="nav-link">
                 HOME
-              </a>
+              </Link>
             </li>
-            <li className="nav-item" ref={aboutItem}>
-              <a href="" className="nav-link">
+            <li className="nav-item" ref={aboutItem} onClick={() => onMenuButtonClick()}>
+              <Link to="/about" className="nav-link">
                 ABOUT ME
-              </a>
+              </Link>
             </li>
             <li className="nav-item" ref={workItem}>
-              <a href="" className="nav-link">
+              <Link to="/work" className="nav-link">
                 MY WORK
-              </a>
+              </Link>
             </li>
             <li className="nav-item" ref={contactItem}>
-              <a href="" className="nav-link">
+              <Link to="contact" className="nav-link">
                 HOW TO REACH ME
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

@@ -1,4 +1,4 @@
-$primary-color : #444;
+$primary-color : #ffffff;
 $secondary-color : #f18b2c;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
@@ -52,5 +52,13 @@ $background-opacity: 0.5;
 @mixin mediaXl {
     @media screen and (min-width: 1171px) {
         @content;
+    }
+}
+
+@function set-text-color($color){
+    @if (lightness($color) > 40){
+        @return #000;
+    }@else{
+        @return #fff;
     }
 }
