@@ -1,7 +1,7 @@
 $primary-color : #ffffff;
 $secondary-color : #f18b2c;
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
+$home-image: url(../components/img/background.jpg);
 $background-opacity: 0.5;
 
 @mixin easeOut {
@@ -18,7 +18,7 @@ $background-opacity: 0.5;
 
         &:after{
             content: '';
-            position: absolute;
+            position: fixed;
             top : 0;
             right: 0;
             width: 100%;
@@ -38,13 +38,13 @@ $background-opacity: 0.5;
 }
 
   @mixin mediaMd {
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 740px) {
             @content;
         }
   }
 
   @mixin mediaLg {
-    @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @media screen and (min-width: 741px) and (max-width: 1170px) {
         @content;
     }
 }

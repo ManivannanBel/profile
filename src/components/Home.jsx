@@ -17,16 +17,16 @@ function Home() {
           Programmer, Game Developer, Web Developer & Entreprenuer
         </h2>
         <div className="icons">
-          <a>
+          <a href="https://github.com/ManivannanBel">
             <FontAwesomeIcon icon={faGithub} size="3x" />
           </a>
-          <a>
+          <a href="">
             <FontAwesomeIcon icon={faTwitter} size="3x" />
           </a>
-          <a>
+          <a href="https://www.facebook.com/manivannan.belfazt.9">
             <FontAwesomeIcon icon={faFacebook} size="3x" />
           </a>
-          <a>
+          <a href="https://www.instagram.com/manivannan_belfazt/">
             <FontAwesomeIcon icon={faInstagram} size="3x" />
           </a>
         </div>

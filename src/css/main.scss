@@ -78,7 +78,7 @@ main{
     grid-template-columns: repeat(3, 1fr);
   
     .bio-image {
-      background: url('../img/aboutimage.jpg');
+     // background: url('../components/img/aboutimage.jpg');
       width: 300px;
       height: 300px;
       grid-area: bioimage;
