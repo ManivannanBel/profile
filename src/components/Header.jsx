@@ -57,7 +57,7 @@ function Header() {
             <div className="portrait"></div>
           </div>
           <ul className="menu-nav" ref={menuNav}>
-            <li className="nav-item" ref={homeItem}>
+            <li className="nav-item current" ref={homeItem}>
               <a href="" className="nav-link">
                 HOME
               </a>
