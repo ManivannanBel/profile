@@ -6,6 +6,7 @@ import {
     Route,
   } from "react-router-dom";
 import About from "./About";
+import Work from "./Work";
 
 //import '../css/main.css';
 
@@ -18,6 +19,7 @@ function Dashboard() {
         <Header />
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
+        <Route exact path='/work' component={Work} />
       </Router>
     </React.Fragment>
   );

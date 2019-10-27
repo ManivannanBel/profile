@@ -11,8 +11,9 @@ function About() {
             Let me tell you something about me...
         </h2>
         <div className="about-info">
-            <img src="myimage.jpg" alt="Manivannan Ramasamy" className="bio-image"/>
-
+            {//<img src="myimage.jpg" alt="Manivannan Ramasamy" className="bio-image" />
+            }
+            <div className="bio-image"></div>
             <div className="bio">
                 <h3 className="text-secondary">BIO</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex repellendus nulla at ullam, deserunt officia recusandae provident totam minima fuga delectus soluta nemo rem fugit eius et minus earum ad.</p>

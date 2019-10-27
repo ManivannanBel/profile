@@ -67,13 +67,13 @@ function Header() {
                 ABOUT ME
               </Link>
             </li>
-            <li className="nav-item" ref={workItem}>
-              <Link to="/work" className="nav-link">
+            <li className="nav-item" ref={workItem} >
+              <Link to="/work" className="nav-link" onClick={() => onMenuButtonClick()}>
                 MY WORK
               </Link>
             </li>
             <li className="nav-item" ref={contactItem}>
-              <Link to="contact" className="nav-link">
+              <Link to="contact" className="nav-link" onClick={() => onMenuButtonClick()}>
                 HOW TO REACH ME
               </Link>
             </li>
