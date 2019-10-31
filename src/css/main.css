@@ -307,6 +307,27 @@ main#home h1 {
       grid-template-columns: repeat(2, 1fr);
 }
 
+.projects .tooltip {
+  position: relative;
+}
+
+.projects .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.projects .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 .projects img {
   height: 200px;
   width: 100%;
@@ -379,6 +400,10 @@ main#home h1 {
   border: 0;
   margin-bottom: 0.3rem;
   text-decoration: none;
+}
+
+.btn.not-allowed, .not-allowed.btn-dark, .not-allowed.btn-light {
+  cursor: not-allowed;
 }
 
 .btn:hover, .btn-dark:hover, .btn-light:hover {

@@ -17,7 +17,8 @@ function Work() {
         </h2>
         <div className="projects">
             <div className="item">
-                <a>
+                <a className="tooltip">
+                <span class="tooltiptext">It is an Infinite truck racing game where the player has to travel as much distance as possible to get the highest score with increasing difficulty</span>
                     <img src="https://lh3.googleusercontent.com/h5ud-z9pshy6l__SULIF61tTNuMHxXsqpjsYVlSkGwLywNyxaJgTp_NPE29McyuAgw=w720-h310-rw" alt="project"/>
                 </a>
                 <div className="nameholder">
@@ -32,7 +33,8 @@ function Work() {
                 </a>
             </div>
             <div className="item">
-                <a>
+                <a className=" tooltip">
+                <span class="tooltiptext">A react project for visualizing path finding algorithms</span>
                     <img src={algorithmVizualiserImg} alt="project"/>
                 </a>
                 <div className="nameholder">
@@ -47,7 +49,9 @@ function Work() {
                 </a>
             </div>
             <div className="item">
-                <a>
+            
+                <a className="tooltip">
+                <span class="tooltiptext">They are comming! is a survival game for android where the player has survive the zombie apocalypse</span>
                     <img src={zombieImg} alt="project"/>
                 </a>
                 <div className="nameholder">
@@ -62,34 +66,28 @@ function Work() {
                 </a>
             </div>
             <div className="item">
-                <a>
+            
+                <a className=" tooltip">
+                <span class="tooltiptext">Monitoring System for Loco running staff for Railway Department, Southern Division, Salem</span>
                     <img src={cliImg} alt="project"/>
                 </a>
                 <div className="nameholder">
-                <h4>Monitoring System for Loco running staff for Railway Department, Southern Division, Salem</h4>
+                <h4>CLI Monitoring Portal</h4>
                 <h5>Web and Android Application</h5>
                 </div>
-                <a href="" className="btn-light">
-                    <FontAwesomeIcon icon={faEye} size="1x" />Project
+                <a className="btn-light not-allowed">
+                <div className="tooltip">
+                <span class="tooltiptext">Source and Preview not available due to confidentiality</span>
+                
+                    <FontAwesomeIcon icon={faEye} size="1x" />Project</div> 
                 </a>
-                <a href="" className="btn-dark">
-                    <FontAwesomeIcon icon={faGithub} size="1x" />Github
+                <a className="btn-dark not-allowed">
+                <div className="tooltip">
+                <span class="tooltiptext">Source and Preview not available due to confidentiality</span>
+                
+                    <FontAwesomeIcon icon={faGithub} size="1x" />Github</div>
                 </a>
-            </div>
-            <div className="item">
-                <a>
-                    <img src="" alt="project"/>
-                </a>
-                <div className="nameholder">
-                <h4>Burning tires: Thunder Runner</h4>
-                <h5>Android Game</h5>
-                </div>
-                <a href="" className="btn-light">
-                    <FontAwesomeIcon icon={faEye} size="1x" />Project
-                </a>
-                <a href="" className="btn-dark">
-                    <FontAwesomeIcon icon={faGithub} size="1x" />Github
-                </a>
+                
             </div>
         </div>
         </main> 

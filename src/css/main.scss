@@ -118,7 +118,29 @@ main{
       display: grid;
       grid-gap: 0.7rem;
       grid-template-columns: repeat(2, 1fr);
+
+      .tooltip {
+        position: relative;
+        //display: inline-block;
+      }
       
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 100%;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+      
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+      
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
 
       img {
           height: 200px;
@@ -153,7 +175,9 @@ main{
         
       }
 
+
   }
+
 
   //contact page
   .boxes{
@@ -186,6 +210,11 @@ main{
       padding: 0.5rem 1rem;
       border: 0;
       margin-bottom: 0.3rem;
+
+      &.not-allowed {
+        cursor: not-allowed;
+      }
+
       &:hover{
           background: $secondary-color;
           color: set-text-color($secondary-color);
