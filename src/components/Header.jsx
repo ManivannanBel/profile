@@ -1,6 +1,6 @@
 import React, {useState, useRef, useEffect} from "react";
 import {Link} from 'react-router-dom';
-//import '../css/main.css';
+import myimage from '.\\img\\myimage.jpg';
 
 function Header() {
     
@@ -49,6 +49,7 @@ function Header() {
         previousButton.current.classList.remove('current');
         homeItem.current.classList.add('current');
         setPreviousButton(homeItem)
+        document.body.classList.remove("hide");
         onMenuButtonClick();
     }
 
@@ -56,6 +57,7 @@ function Header() {
         previousButton.current.classList.remove('current');
         aboutItem.current.classList.add('current');
         setPreviousButton(aboutItem)
+        document.body.classList.remove("hide");
         onMenuButtonClick();
     }
 
@@ -63,6 +65,7 @@ function Header() {
         previousButton.current.classList.remove('current');
         workItem.current.classList.add('current');
         setPreviousButton(workItem)
+        document.body.classList.add("hide");
         onMenuButtonClick();
     }
 
@@ -70,6 +73,7 @@ function Header() {
         previousButton.current.classList.remove('current');
         contactItem.current.classList.add('current');
         setPreviousButton(contactItem)
+        document.body.classList.add("hide");
         onMenuButtonClick();
     }
 
@@ -84,7 +88,7 @@ function Header() {
 
         <nav className="menu" ref={menu}>
           <div className="menu-branding" ref={menuBranding}>
-            <div className="portrait"></div>
+            <img src={myimage} className="portrait"/>
           </div>
           <ul className="menu-nav" ref={menuNav}>
             <li className="nav-item current" ref={homeItem} onClick={() => onHomeButtonClick()}>

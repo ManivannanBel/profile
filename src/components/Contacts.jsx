@@ -11,15 +11,15 @@ function Contacts() {
             To reach me...
         </h2>
         <div className="boxes">
-           <div className="contacts">
+           <div>
                 <span className="text-secondary">Email: </span>
                 manivannan.belfazt@gmail.com   
             </div> 
-            <div className="contacts">
+            <div>
                 <span className="text-secondary">Phone: </span>
                 7418562052   
             </div> 
-            <div className="contacts">
+            <div>
                 <span className="text-secondary">Address: </span>
                 Bangalore, India   
             </div> 

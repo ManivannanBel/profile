@@ -100,7 +100,6 @@
 .menu-branding .portrait {
   width: 400px;
   height: 400px;
-  background: url("../components/img/myimage.jpg");
   border-radius: 50%;
   border: solid 3px #f18b2c;
 }
@@ -188,6 +187,10 @@ body#bg-img:after {
   height: 100%;
   z-index: -1;
   background: rgba(255, 255, 255, 0.5);
+}
+
+body#bg-img.hide {
+  background: #ebebeb;
 }
 
 h1, h2, h3 {
@@ -305,15 +308,35 @@ main#home h1 {
 }
 
 .projects img {
+  height: 200px;
   width: 100%;
   border: 3px solid #fff;
 }
 
 .projects img:hover {
-  opacity: 0.5;
+  opacity: 0.9;
   border-color: #f18b2c;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+}
+
+.projects .item {
+  margin-bottom: 2rem;
+}
+
+.projects .nameholder {
+  border: 2px solid #f18b2c;
+}
+
+.projects .nameholder h4 {
+  margin: 0;
+  text-align: center !important;
+}
+
+.projects .nameholder h5 {
+  margin: 0;
+  text-align: center !important;
+  color: #f18b2c;
 }
 
 .boxes {
@@ -401,7 +424,7 @@ main#home h1 {
   main .lg-heading {
     line-height: 1;
     margin-bottom: 1rem;
-    font-size: 3rem;
+    font-size: 4rem;
   }
   ul.menu-nav, div.menu-branding {
     float: none;
@@ -444,6 +467,17 @@ main#home h1 {
     font-size: 1.5rem;
     padding: 0.5rem 1.2rem;
     margin-bottom: 1.5rem;
+  }
+  main {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  main .lg-heading {
+    line-height: 1;
+    margin-bottom: 1rem;
+    font-size: 3rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

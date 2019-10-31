@@ -41,7 +41,9 @@ header {
 
 .text-secondary{
     color: $secondary-color;
+
 }
+
 
 main{
     padding: 4rem;
@@ -119,15 +121,38 @@ main{
       
 
       img {
+          height: 200px;
           width: 100%;
           border: 3px solid #fff;
 
           &:hover{
-              opacity: 0.5;
+              opacity: 0.9;
               border-color: $secondary-color;
               @include easeOut;
           }
         }
+
+        .item{
+          margin-bottom: 2rem;
+        }
+
+      .nameholder{
+
+        border: 2px solid $secondary-color;
+
+        h4{
+          margin: 0;
+          text-align: center !important;
+        }
+        
+        h5{
+          margin: 0;
+          text-align: center !important;
+          color: $secondary-color;
+        }
+        
+      }
+
   }
 
   //contact page

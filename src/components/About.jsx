@@ -1,4 +1,5 @@
 import React from 'react'
+import aboutphoto from ".\\img\\aboutimage.jpg";
 
 function About() {
     return (
@@ -11,37 +12,42 @@ function About() {
             Let me tell you something about me...
         </h2>
         <div className="about-info">
-            <img src="img/aboutimage.jpg" alt="Manivannan Ramasamy" className="bio-image" />
+            <img src={aboutphoto} alt="Manivannan Ramasamy" className="bio-image" />
             
             <div className="bio">
                 <h3 className="text-secondary">BIO</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex repellendus nulla at ullam, deserunt officia recusandae provident totam minima fuga delectus soluta nemo rem fugit eius et minus earum ad.</p>
+                <p align="justify">I am computer programmer, self taught game developer and web developer with great programming knowledge and capability to learn new things. Welcome to my portfolio site and have a look at my works and previous projects.</p>
             </div>
 
             <div className="job job-1">
                 <h3>
-                    123 workshop
+                    Bachelor of Computer Science and Engineering 2015 - 2019
                 </h3>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab tempore perferendis debitis animi adipisci deserunt sint omnis earum reiciendis velit.
+                    8.3 CGPA
+                </p>
+                <p>
+                    Sona College of Technology, Salem.
                 </p>
             </div>
 
             <div className="job job-2">
                 <h3>
-                    123 workshop
+                    Higher Secondary Certificate
                 </h3>
+                <p>93%</p>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab tempore perferendis debitis animi adipisci deserunt sint omnis earum reiciendis velit.
+                    Saratha Matriculation School, Gobi.
                 </p>
             </div>
 
             <div className="job job-3">
                 <h3>
-                    123 workshop
+                    Secondary School Leaving Certificate
                 </h3>
+                <p>94%</p>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab tempore perferendis debitis animi adipisci deserunt sint omnis earum reiciendis velit.
+                    Saratha Matriculation School, Gobi. 
                 </p>
             </div>
         </div>
