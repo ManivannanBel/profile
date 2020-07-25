@@ -16,7 +16,7 @@
   "homepage": "https://manivannanbel.github.io/profile",
   "scripts": {
     
-    "start": "react-scripts start",
+    "start": "set PORT=3006 && react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",

@@ -16,7 +16,16 @@ function About() {
             
             <div className="bio">
                 <h3 className="text-secondary">BIO</h3>
-                <p align="justify">I am computer programmer, self taught game developer and web developer with great programming knowledge and capability to learn new things. Welcome to my portfolio site and have a look at my works and previous projects.</p>
+                <p align="justify">I am a computer programmer, a self taught game developer and a fullstack developer with a great programming knowledge and capability to learn new things. Welcome to my portfolio site and have a look at my works and previous projects.</p>
+            </div>
+
+            <div className="job job-1">
+                <h3>
+                    Founder of BelfaZt games
+                </h3>
+                <p>
+                    2018 - Present
+                </p>
             </div>
 
             <div className="job job-1">

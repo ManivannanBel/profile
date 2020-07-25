@@ -4,7 +4,8 @@ import {
   faFacebook,
   faTwitter,
   faInstagram,
-  faGithub
+  faGithub,
+  faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 
 function Home() {
@@ -14,13 +15,16 @@ function Home() {
           Manivannan <span className="text-secondary">Ramasamy</span>
         </h1>
         <h2 className="sm-heading">
-          Programmer, Game Developer, Web Developer & Entreprenuer
+          Computer Programmer, Game Developer & Fullstack Developer
         </h2>
         <div className="icons">
           <a href="https://github.com/ManivannanBel">
             <FontAwesomeIcon icon={faGithub} size="3x" />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/manivannan28/">
+            <FontAwesomeIcon icon={faLinkedin} size="3x" />
+          </a>
+          <a href="https://twitter.com/Maxi_BelfaZt">
             <FontAwesomeIcon icon={faTwitter} size="3x" />
           </a>
           <a href="https://www.facebook.com/manivannan.belfazt.9">
