@@ -28,7 +28,7 @@ function About() {
                 </p>
             </div>
 
-            <div className="job job-1">
+            <div className="job job-2">
                 <h3>
                     Bachelor of Computer Science and Engineering 2015 - 2019
                 </h3>
@@ -40,7 +40,7 @@ function About() {
                 </p>
             </div>
 
-            <div className="job job-2">
+            <div className="job job-3">
                 <h3>
                     Higher Secondary Certificate
                 </h3>
@@ -50,7 +50,7 @@ function About() {
                 </p>
             </div>
 
-            <div className="job job-3">
+            <div className="job job-4">
                 <h3>
                     Secondary School Leaving Certificate
                 </h3>
