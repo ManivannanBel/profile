@@ -15,10 +15,7 @@ function Contacts() {
                 <span className="text-secondary">Email: </span>
                 manivannan.belfazt@gmail.com   
             </div> 
-            <div>
-                <span className="text-secondary">Phone: </span>
-                7418562052   
-            </div> 
+            
             <div>
                 <span className="text-secondary">Address: </span>
                 Bangalore, India   
