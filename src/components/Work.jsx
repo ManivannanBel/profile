@@ -21,6 +21,26 @@ function Work() {
 
         <div className="item">
                 <a className=" tooltip">
+                <span class="tooltiptext">This is a Virtual Reality game where you can take a small walk in natural environment. Take a small walk in the environment to get rid of your stress and free your mind. Enjoy the birds chirping in 3D sound.</span>
+                    <img src='https://lh3.googleusercontent.com/Yczftu_uP28xxg46b9zcR3guLQGR2XXzUvHktTqFNSBqDzr2qjF-kHYRoqXmKxQkXfU=w720-h310-rw' alt="project"/>
+                </a>
+                <div className="nameholder">
+                <h4>Walk in Nature VR</h4>
+                <h5>VR Android game</h5>
+                </div>
+                <a href="https://play.google.com/store/apps/details?id=com.DefaultCompany.WalkinnatureVR" className="btn-light">
+                    <FontAwesomeIcon icon={faEye} size="1x" />Project
+                </a>
+                <a className="btn-dark not-allowed">
+                <div className="tooltip">
+                <span class="tooltiptext">Source code not available</span>
+                
+                    <FontAwesomeIcon icon={faGithub} size="1x" />Github</div>
+                </a>
+            </div>
+
+        <div className="item">
+                <a className=" tooltip">
                 <span class="tooltiptext">This cargo delivery truck game is full of thrill and adventure to take heavy cargo from and deliver it to their destination.</span>
                     <img src='https://lh3.googleusercontent.com/gmShubQ60xAY8rQWOKBW7CiOcrfsxHoyMOxDXei1I98cJj0cQKY73d5AP-Xk5L_mI1zk=s180-rw' alt="project"/>
                 </a>
@@ -33,7 +53,7 @@ function Work() {
                 </a>
                 <a className="btn-dark not-allowed">
                 <div className="tooltip">
-                <span class="tooltiptext">Source and Preview not available</span>
+                <span class="tooltiptext">Source code not available</span>
                 
                     <FontAwesomeIcon icon={faGithub} size="1x" />Github</div>
                 </a>
@@ -46,14 +66,14 @@ function Work() {
                 </a>
                 <div className="nameholder">
                 <h4>Cross the road in VR</h4>
-                <h5>Android game</h5>
+                <h5>VR Android game</h5>
                 </div>
                 <a href="https://play.google.com/store/apps/details?id=com.BelfaZT.CrosstheroadinVR" className="btn-light">
                     <FontAwesomeIcon icon={faEye} size="1x" />Project
                 </a>
                 <a className="btn-dark not-allowed">
                 <div className="tooltip">
-                <span class="tooltiptext">Source and Preview not available</span>
+                <span class="tooltiptext">Source code not available</span>
                 
                     <FontAwesomeIcon icon={faGithub} size="1x" />Github</div>
                 </a>

@@ -33,7 +33,7 @@ function About() {
                     Bachelor of Computer Science and Engineering 2015 - 2019
                 </h3>
                 <p>
-                    8.3 CGPA
+                    8.79 CGPA
                 </p>
                 <p>
                     Sona College of Technology, Salem.

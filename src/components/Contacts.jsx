@@ -15,6 +15,11 @@ function Contacts() {
                 <span className="text-secondary">Email: </span>
                 manivannan.belfazt@gmail.com   
             </div> 
+
+            <a href="https://www.linkedin.com/in/manivannan28/">
+                <span className="text-secondary">Linkedin: </span>
+                manivannan28
+            </a> 
             
             <div>
                 <span className="text-secondary">Address: </span>
