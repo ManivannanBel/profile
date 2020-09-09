@@ -22,7 +22,7 @@ function Work() {
 
         <div className="item">
                 <a className=" tooltip">
-                <span class="tooltiptext">This is a Virtual Reality game where you can take a small walk in natural environment. Take a small walk in the environment to get rid of your stress and free your mind. Enjoy the birds chirping in 3D sound.</span>
+                <span class="tooltiptext">MemoryLane is social media platform for close group of people to share their nostalgic memories and moments with each other. It is built using Nodejs, Expressjs for backend, MongoDB for Database, Firebase Storage for Storage and Reactjs for frontend, Redux for state management.</span>
                     <img src={memoryLaneImg} alt="project"/>
                 </a>
                 <div className="nameholder">
