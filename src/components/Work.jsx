@@ -7,6 +7,7 @@ import zombieImg from '.\\img\\zombie.png';
 import cliImg from '.\\img\\cli.png';
 import projectManagementToolImg from '.\\img\\kanban.png';
 import urlShortenerImg from '.\\img\\url-short.jpg';
+import memoryLaneImg from '.\\img\\memory-lane.png';
 function Work() {
     return (
         <div>
@@ -18,6 +19,23 @@ function Work() {
             Check out some of my works...
         </h2>
         <div className="projects">
+
+        <div className="item">
+                <a className=" tooltip">
+                <span class="tooltiptext">This is a Virtual Reality game where you can take a small walk in natural environment. Take a small walk in the environment to get rid of your stress and free your mind. Enjoy the birds chirping in 3D sound.</span>
+                    <img src={memoryLaneImg} alt="project"/>
+                </a>
+                <div className="nameholder">
+                <h4>Memory Lane</h4>
+                <h5>Nodejs, Expressjs, MongoDB, Reactjs, Redux</h5>
+                </div>
+                <a href="https://memorylane-api.herokuapp.com/" className="btn-light">
+                    <FontAwesomeIcon icon={faEye} size="1x" />Project
+                </a>
+                <a href="https://github.com/ManivannanBel/MemoryLane-Prod" className="btn-dark">
+                    <FontAwesomeIcon icon={faGithub} size="1x" />Github
+                </a>
+            </div>
 
         <div className="item">
                 <a className=" tooltip">
