@@ -359,6 +359,15 @@ main#home h1 {
   margin: 0;
   text-align: center !important;
   color: #f18b2c;
+  background: #ffffff;
+}
+
+.projects .nameholder h3 {
+  margin: 0;
+  text-align: center !important;
+  color: #f10000;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .boxes {

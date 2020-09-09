@@ -13,7 +13,7 @@ function Work() {
         <div>
         <main id="about">
         <h1 className="lg-heading">
-          My <span className="text-secondary">work</span>
+          My <span className="text-secondary">projects</span>
         </h1>
         <h2 className="sm-heading">
             Check out some of my works...
@@ -26,7 +26,8 @@ function Work() {
                     <img src={memoryLaneImg} alt="project"/>
                 </a>
                 <div className="nameholder">
-                <h4>Memory Lane</h4>
+                <h4>Memory Lane (Social media app)</h4>
+                <h3>Lockdown project</h3>
                 <h5>Nodejs, Expressjs, MongoDB, Reactjs, Redux</h5>
                 </div>
                 <a href="https://memorylane-api.herokuapp.com/" className="btn-light">
@@ -44,6 +45,7 @@ function Work() {
                 </a>
                 <div className="nameholder">
                 <h4>Walk in Nature VR</h4>
+                <h3>Lockdown project</h3>
                 <h5>VR Android game</h5>
                 </div>
                 <a href="https://play.google.com/store/apps/details?id=com.DefaultCompany.WalkinnatureVR" className="btn-light">
@@ -64,6 +66,7 @@ function Work() {
                 </a>
                 <div className="nameholder">
                 <h4>Extreme mountain trucker</h4>
+                <h3>Lockdown project</h3>
                 <h5>Android game</h5>
                 </div>
                 <a href="https://play.google.com/store/apps/details?id=com.BelfaZt.extrememountaintrucking" className="btn-light">

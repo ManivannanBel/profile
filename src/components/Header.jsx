@@ -103,7 +103,7 @@ function Header() {
             </li>
             <li className="nav-item" ref={workItem} >
               <Link to="/work" className="nav-link" onClick={() => onWorkButtonClick()}>
-                MY WORK
+                MY PERSONAL PROJECTS
               </Link>
             </li>
             <li className="nav-item" ref={contactItem}>
