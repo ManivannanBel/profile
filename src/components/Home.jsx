@@ -24,15 +24,6 @@ function Home() {
           <a href="https://www.linkedin.com/in/manivannan28/">
             <FontAwesomeIcon icon={faLinkedin} size="3x" />
           </a>
-          <a href="https://twitter.com/Maxi_BelfaZt">
-            <FontAwesomeIcon icon={faTwitter} size="3x" />
-          </a>
-          <a href="https://www.facebook.com/manivannan.belfazt.9">
-            <FontAwesomeIcon icon={faFacebook} size="3x" />
-          </a>
-          <a href="https://www.instagram.com/manivannan_belfazt/">
-            <FontAwesomeIcon icon={faInstagram} size="3x" />
-          </a>
         </div>
       </main>
     )
