@@ -292,13 +292,13 @@ function Work() {
           <div className="item">
             <a className="tooltip">
               <span class="tooltiptext">
-                They are comming! is a survival game for android where the
+                They are coming! is a survival game for android where the
                 player has survive the zombie apocalypse
               </span>
               <img src={zombieImg} alt="project" />
             </a>
             <div className="nameholder">
-              <h4>They are comming</h4>
+              <h4>They are coming</h4>
               <h5>Android Zombie Game</h5>
             </div>
             <a href="" className="btn-light">
